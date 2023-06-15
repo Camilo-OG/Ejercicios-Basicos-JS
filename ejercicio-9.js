@@ -5,4 +5,4 @@ for (let i = 0; i < palabra.length; i++){
         contador++
     }
 };
-document.write( `La palabra ${palabra} tiene ${contador} veces la letra "a"` );
+document.write( `La palabra "${palabra}" tiene ${contador} veces la letra "a"` );

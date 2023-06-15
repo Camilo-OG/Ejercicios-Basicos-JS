@@ -1,10 +1,10 @@
-let num1 = new Number (window.prompt("Veamos que numero es mayor, ingrese el primer número"));
-let num2 = new Number (window.prompt("ingrese el segundo numero"));
-let num3 = new Number (window.prompt("Ingrese el tercer numero"))
-if (num1 > num2 && num1 > num3) {
-    console.log(`El número ${num1} es mayor que los números ${num2} y ${num3}`)
-} else if (num2 > num1 && num2 > num3) {
-    console.log(`El número ${num2} es mayor que los números ${num1} y ${num3}`)
-} else if (num3 > num1 && num3 > num2) {
-    console.log(`El número ${num3} es mayor que los números ${num1} y ${num2}`)
+let numb1 = new Number (window.prompt("Veamos que numero es mayor, ingrese el primer número"));
+let numb2 = new Number (window.prompt("ingrese el segundo numero"));
+let numb3 = new Number (window.prompt("Ingrese el tercer numero"))
+if (numb1 > numb2 && numb1 > numb3) {
+    console.log(`El número ${numb1} es mayor que los números ${numb2} y ${numb3}`)
+} else if (numb2 > numb1 && numb2 > numb3) {
+    console.log(`El número ${numb2} es mayor que los números ${numb1} y ${numb3}`)
+} else if (numb3 > numb1 && numb3 > numb2) {
+    console.log(`El número ${numb3} es mayor que los números ${numb1} y ${numb2}`)
 }
