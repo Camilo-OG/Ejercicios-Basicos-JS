@@ -8,3 +8,4 @@ if (numb1 > numb2 && numb1 > numb3) {
 } else if (numb3 > numb1 && numb3 > numb2) {
     console.log(`El número ${numb3} es mayor que los números ${numb1} y ${numb2}`)
 }
+// se puede usar el objeto mat.max
