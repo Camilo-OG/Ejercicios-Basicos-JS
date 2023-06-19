@@ -6,8 +6,6 @@ function numeroMayor (num1,num2,num3) {
         let mayor = Math.max(...numeros);
         console.log(mayor)
     }
-    
-
 }
 
 numeroMayor(6,7,4);
