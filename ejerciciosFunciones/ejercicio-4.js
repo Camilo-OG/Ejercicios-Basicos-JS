@@ -1,4 +1,4 @@
-
+console.log("-------Ejercicio 4 -------")
 function sumaArreglo (...arreglo) {
     let suma = 0;
     const sumar = arreglo.reduce( ( suma, arreglo) => suma += arreglo);

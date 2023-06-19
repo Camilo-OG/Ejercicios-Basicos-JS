@@ -1,3 +1,4 @@
+console.log("-------Ejercicio 2 -------")
 const vocales = ["a","e","i","o","u"];
 
 function esVocal (caracter) {

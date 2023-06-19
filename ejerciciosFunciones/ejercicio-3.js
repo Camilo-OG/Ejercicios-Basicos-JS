@@ -1,3 +1,4 @@
+console.log("-------Ejercicio 3 -------")
 const generarCaracteres = (caracter,numero) => {
     // metodo .repeat crea y concatena el string (n) veces 
     let resultado = caracter.repeat(numero);

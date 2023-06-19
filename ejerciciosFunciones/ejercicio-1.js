@@ -1,3 +1,4 @@
+console.log("-------Ejercicio 1 -------")
 function numeroMayor (num1,num2,num3) {
     const numeros = [num1, num2, num3];
     if(num1 === num2 && num2 === num3){
