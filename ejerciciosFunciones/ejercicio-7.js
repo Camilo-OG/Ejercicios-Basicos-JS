@@ -14,5 +14,5 @@ function booleanoArray(arr1,arr2) {
     console.log(newArray2)
 }
 
-booleanoArray(arreglo1,arreglo2);
-booleanoArray(arreglo3,arreglo4);
+booleanoArray(arreglo5,arreglo6);
+booleanoArray(arreglo7,arreglo8);
