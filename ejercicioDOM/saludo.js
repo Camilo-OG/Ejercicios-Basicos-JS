@@ -3,24 +3,22 @@ const btn = document.querySelector('.btn')
 const form = document.querySelector('#formulario')
 
 
+/* 
 const usuarios = [{nombre: 'camilo', apellido: 'osorio'},{nombre: 'gabriela', apellido: 'moya'},{nombre: 'Esteban', apellido: 'gonzalez'}];
 
 //Destructuring de objetos
 
 const [ { nombre: user1, apellido: pw1},{ nombre: user2, apellido: pw2}] = usuarios;
 
-console.log(user2)
-
-
+console.log(user2) 
+*/
 
 form.addEventListener('submit', (e) => {
 
 e.preventDefault();
     
 const name = document.querySelector('#nombre').value;
-
 const lastName = document.querySelector('#apellido').value;
-
 const saludo = document.querySelector('#saludo'); 
 
 saludo.textContent = `Hola ${name} ${lastName}, gracias por rellenar el formulario`;
