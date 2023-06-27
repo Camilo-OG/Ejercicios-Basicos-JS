@@ -1,0 +1,12 @@
+.texto-activo {
+    color: rgb(204, 204, 204);
+    background-color: rgb(190, 24, 107);
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin: 30px;
+    padding: 30px;
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+    text-align: center;
+}
