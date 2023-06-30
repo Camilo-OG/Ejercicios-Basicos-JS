@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+h3 {
+    color: blue;
+    text-align: center;
+}
+.main {
+    background-color: gray;
+    align-content: center;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.alerta {
+    color: #72353D;
+    background-color: #EAD2D5;
+    border: 5px black solid;
+}
+.azul, .rojo {
+    display: inline-block;
+    height: 200px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 50px;
+    border: 5px black solid;
+}
+.azul {
+    background-color: blue;
+}
+.rojo {
+    background-color: red;
+}

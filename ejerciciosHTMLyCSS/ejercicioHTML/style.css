@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    color: rgb(33, 209, 165);
+}
+#formulario {
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+input.submit {
+    border: 5px rgb(194, 72, 109) solid;
+    background-color: rgb(212, 3, 3);
+    color: whitesmoke; 
+    margin-left: 130px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 8px;
+
+}

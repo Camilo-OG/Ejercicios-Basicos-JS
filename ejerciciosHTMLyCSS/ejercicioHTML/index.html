@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Veterinaria</h1>
+    <div class="contenedor">
+        <form action="POST" id="formulario">
+            <fieldset>
+                <legend>Datos Paciente</legend>
+                <label for="tipoMascota"> Tipo de Mascota: </label> <input type="text" name="nombreMascota" placeholder="Ingrese tipo de mascota"><br>
+                <label for="nombreMascota"> Nombre de Mascota: </label> <input type="text" name="nombreMascota" placeholder="Ingrese nombre de mascota"><br>
+                <label for="edad"> Edad de Mascota: </label> <input type="text" name="edad" placeholder="Ingrese edad de mascota"><br>
+                <label for="nombreDueño"> Nombre de Dueño: </label> <input type="text" name="nombreDueño" placeholder="Ingrese su nombre"><br>
+                <label for="celular"> Numero de Celular: </label> <input type="text" name="celular" placeholder="Ingrese su numero"><br>
+                <label for="fecha">Fecha de Consulta: </label> <input type="date" name="fecha">
+            </fieldset>
+            <fieldset>
+             <legend>Motivo de Consulta</legend>
+                <label> Antecedentes </label><br>
+                Ha tenido alguna fractura? <input type="radio" name="fractura" tabindex="1" value="foo">Si <input type="radio" name="fractura" tabindex="2" value="bar"> No <br>
+                Indique donde... <input type="text" name="fractura" tabindex="3" placeholder="Ingrese lugar de fractura"><br>
+                Ha tenido alguna operacion? <input type="radio" name="operacion" tabindex="11" value="foo">Si <input type="radio" name="operacion" tabindex="12" value="bar"> No <br>
+                Indique cual... <input type="text" name="operacion" tabindex="13" placeholder="Ingrese que operacion"><br>
+                Ha tenido alguna enfermedad? <input type="radio" name="enfermedad" tabindex="21" value="foo">Si <input type="radio" name="enfermedad" tabindex="22" value="bar"> No <br>
+                Indique cual... <input type="text" name="enfermedad" tabindex="3" placeholder="Ingrese enfermedad"><br>
+            </fieldset>
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
