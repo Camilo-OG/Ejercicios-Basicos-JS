@@ -1,0 +1,47 @@
+.backgNav {
+  color: whitesmoke;
+  background-color: black;
+}
+.bgimage {
+  background: url('./705334.jpg');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden; /* Elimina el scroll eje x */
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  color: whitesmoke;
+  opacity: 80%;
+  font-size: 2rem;
+}
+.hero-tittle {
+  font-size: 4rem;
+}
+i {
+  font-size: 50px;
+}
+#footer {
+  background-color: darkslategrey;
+}
+.social-icons {
+  padding-top: 20px;
+  padding-right: 25px;
+  align-content: start;
+}
+#footer a i {
+  color: whitesmoke;
+  font-size: 70px;
+}
+.copy {
+  color: whitesmoke;
+  opacity: 50%;
+}
+.copy a {
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: end;
+}
