@@ -1,0 +1,15 @@
+{
+  "name": "practica-npm",
+  "version": "1.0.0",
+  "description": "Proyecto inicial de npm en generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Camilo Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
