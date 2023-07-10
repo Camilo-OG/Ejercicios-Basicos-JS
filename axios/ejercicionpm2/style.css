@@ -1,0 +1,22 @@
+.card {
+  background-color: rgb(196, 57, 57);
+  border: 10px black solid;
+  border-radius: 10px;
+}
+
+img {
+  background-color: whitesmoke;
+  border: 10px black solid;
+  border-radius: 10px;
+  background-color: rgb(129, 179, 132);
+  margin-top: 10px;
+}
+h5 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
